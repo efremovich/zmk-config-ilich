@@ -1,5 +1,6 @@
 identifier: ilich 
 name: Il`ich
+url: https://github.com/efremovich/ilich
 type: keyboard
 arch: arm
 toolchain:
@@ -7,12 +8,10 @@ toolchain:
   - gnuarmemb
   - xtools
 supported:
-  - gpio
-  - counter
-  - spi
+  - adc
   - usb_device
-  - lsm303dlhc
-  - nvs
-  - can
-  - kscan
   - ble
+  - ieee802154
+  - pwm
+  - watchdog
+  - gpio
