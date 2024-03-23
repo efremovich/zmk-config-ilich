@@ -3,10 +3,10 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config BOARD_SKEAN_LEFT
+config BOARD_ILICH_LEFT
 	bool "ilich_left"
 	depends on SOC_NRF52833_QIAA
 
-config BOARD_SKEAN_RIGHT
+config BOARD_ILICH_RIGHT
 	bool "ilich_right"
 	depends on SOC_NRF52833_QIAA

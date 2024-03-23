@@ -6,19 +6,6 @@
 
 #include "ilich.dtsi"
 
-
-&default_transform {
-    col-offset = <6>;
-};
-
-&crkbd_transform {
-    col-offset = <6>;
-};
-
-&five_column_transform {
-    col-offset = <6>;
-};
-
 &kscan0 {
     col-gpios
         = <&gpio1  9 GPIO_ACTIVE_HIGH>

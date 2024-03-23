@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-	model = "skean";
-	compatible = "skean";
+	model = "ilich";
+	compatible = "ilich";
 
 	chosen {
 		zephyr,code-partition = &code_partition;

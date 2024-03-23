@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT
 #
 
-if BOARD_SKEAN_LEFT
+if BOARD_ILICH_LEFT
 
 config ZMK_KEYBOARD_NAME
 	default "I`lich"
@@ -11,10 +11,10 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
-endif # BOARD_SKEAN_LEFT
+endif # BOARD_ILICH_LEFT
 
 
-if BOARD_SKEAN_LEFT || BOARD_SKEAN_RIGHT
+if BOARD_ILICH_LEFT || BOARD_ILICH_RIGHT
 
 config BOARD
 	default "ilich"
@@ -38,4 +38,4 @@ config USB_NRFX
 
 endif # USB_DEVICE_STACK
 
-endif # BOARD_SKEAN_LEFT || BOARD_SKEAN_RIGHT
+endif # BOARD_ILICH_LEFT || BOARD_ILICH_RIGHT
