@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: ilich_left
-  - board: ilich_right
+  - board: [skean_left, skean_right]
+    name: ["Skean T1", "Skean Alps", "Skean DG", "Skean MA", "Skean Zilent", "Skean i-Rocks"]
