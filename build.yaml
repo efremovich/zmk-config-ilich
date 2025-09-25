@@ -15,11 +15,11 @@
 include:
   - board: ilich_left
   - board: ilich_right
-  - board: ilich_left
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: ilich_left_studio
-  - board: ilich_right
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: ilich_right_studio
+  # - board: ilich_left
+  #   snippet: studio-rpc-usb-uart
+  #   cmake-args: -DCONFIG_ZMK_STUDIO=y
+  #   artifact-name: ilich_left_studio
+  # - board: ilich_right
+  #   snippet: studio-rpc-usb-uart
+  #   cmake-args: -DCONFIG_ZMK_STUDIO=y
+  #   artifact-name: ilich_right_studio
